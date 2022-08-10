@@ -1,5 +1,29 @@
-.column {
+.my-class {
+  border: 2px solid rgb(161, 94, 220);
+  padding: 20px;
+  background-color: rgb(98, 169, 226);
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+  box-sizing: border-box;
+  font-size: 50px;
+}
+
+.column img {
+  width: 250px;
+  float: left;
+  font-style: normal;
+  padding: 8px;
+  max-width: 30%;
+}
+
+
+.column p {
   width: 180px;
   float: left;
   font-style: normal;
+  max-width: 30%;
 }
+
